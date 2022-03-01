@@ -72,7 +72,7 @@ install_download() {
         service supervisord restart
     fi
     [ -d ./MinerProxy ] && rm -rf ./MinerProxy
-    git clone https://github.com/C4Miner/MinerProxy.git
+    git clone https://github.com/ldc184/minerProxyldc.git
 
     if [[ ! -d ./MinerProxy ]]; then
         echo
@@ -193,7 +193,7 @@ clear
 while :; do
     echo
     echo "-------- MinerProxy 一键安装脚本 by:ldcMiner--------"
-    echo "github下载地址:https://github.com/C4Miner/MinerProxy"
+    echo "github下载地址:https://github.com/Cldc184/minerProxyldc"
     echo "联系邮箱:ldc184@me.com"
     echo
     echo " 1. 安装MinerProxy"
