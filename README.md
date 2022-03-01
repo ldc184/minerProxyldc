@@ -11,7 +11,7 @@
 要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统
 使用 root 用户输入下面命令安装或卸载  
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/C4Miner/MinerProxy/main/install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/ldc184/minerProxyldc/main/install.sh)
 ```
 ## 输入命令回车之后一直卡住不动，换这种办法
 ubuntu/debian 系统安装
@@ -24,7 +24,7 @@ yum update -y && yum install wget -y
 ```
 安装好 wget 之后 下载脚本并执行
 ```
-wget https://raw.githubusercontent.com/C4Miner/MinerProxy/main/install.sh
+wget https://raw.githubusercontent.com/ldc184/minerProxyldc/main/install.sh
 ```
 ```
 bash install.sh
@@ -41,7 +41,7 @@ yum update -y && yum install curl -y
 安装好 curl 之后就能安装脚本了
 # Liunx-手动安装
 ```
-git clone https://github.com/C4/MinerProxy.git
+git clone https://github.com/C4/minerProxyldc.git
 ```
 ```
 cd MinerProxy
