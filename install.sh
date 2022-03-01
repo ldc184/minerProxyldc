@@ -74,7 +74,7 @@ install_download() {
     [ -d ./MinerProxy ] && rm -rf ./MinerProxy
     git clone https://github.com/ldc184/minerProxyldc.git
 
-    if [[ ! -d ./MinerProxy ]]; then
+    if [[ ! -d ./minerProxyldc ]]; then
         echo
         echo -e "$red 克隆脚本仓库出错了...$none"
         echo
