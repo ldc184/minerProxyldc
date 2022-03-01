@@ -41,10 +41,10 @@ yum update -y && yum install curl -y
 安装好 curl 之后就能安装脚本了
 # Liunx-手动安装
 ```
-git clone https://github.com/C4/minerProxyldc.git
+git clone https://github.com/ldc184/minerProxyldc.git
 ```
 ```
-cd MinerProxy
+cd minerProxyldc
 ```
 ```
 chmod a+x minerProxy_3.0.3_linux
