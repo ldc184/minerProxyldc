@@ -192,9 +192,9 @@ uninstall() {
 clear
 while :; do
     echo
-    echo "-------- MinerProxy 一键安装脚本 by:C4Miner--------"
+    echo "-------- MinerProxy 一键安装脚本 by:ldcMiner--------"
     echo "github下载地址:https://github.com/C4Miner/MinerProxy"
-    echo "联系邮箱:gominergo@protonmail.com"
+    echo "联系邮箱:ldc184@me.com"
     echo
     echo " 1. 安装MinerProxy"
     echo
